@@ -1,3 +1,0 @@
-LNPLPL_functions
-LNPL_functions
-pdf_fitter
