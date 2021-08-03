@@ -8,7 +8,7 @@ pip install pdffit
 
 Once you have installed, you can use the following sample script - 
 ```python
-from fitter import *
+from pdf_fitter import *
 import numpy as np
 
 
