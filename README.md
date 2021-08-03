@@ -27,7 +27,7 @@ PLPLresult = PLPLFit(xdata, ydata, p0, params, use_K21=True)
 p0 = [1.85, 1.57]
 PLresult = PLFit(xdata, ydata, p0, params)
 
-print (PLresult.sigma_err, PLresult.alpha_err, PLPLresult.sigma_err, PLPLresult.sb)
+print (PLresult.sigma_err, PLresult.alpha_g_err, PLPLresult.sigma_err, PLPLresult.sd)
 #To know more about how to access the result: help(Result)
 
 ```
